@@ -115,7 +115,7 @@ body {
   display: flex;
   flex-flow: wrap;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
 }
 
 .div-1, .div-2, .div-3 {
@@ -123,15 +123,23 @@ body {
   color: #fff;
   line-height: 1.5em;
   font-size: 1.2em;
-  background-color: #000;
-  height: auto;
+  background-color: #808080;
   display: flex;
   width: 30%;
   justify-content: center;
   align-items: center;
   font-family: 'Cormorant', serif;
-  border-right: 2px solid #cc00cc;
-  border-left: 2px solid #cc00cc;
+  
+}
+.div-1 {
+    
+   
+}
+.div-2 {
+    border-right: 2px solid #cc00cc;
+    border-left: 2px solid #cc00cc;
+    padding-right: 20px;
+    padding-left: 35px;
 }
 
 
